@@ -180,7 +180,7 @@ Containers are isolated from one another and bundle their own software, librarie
 
 **Dockerfile:** pattern to create your own image
 
-- Create a container with a image:
+- Create a container with an image:
 
 ```bash
 sudo docker run --name <nameOfContainer> -e <IMAGE>_PASSWORD=<passwordOfContainer> -p <pcPort>:<portContainer> -d <imageName>
