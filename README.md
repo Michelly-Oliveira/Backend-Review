@@ -185,5 +185,3 @@ Containers are isolated from one another and bundle their own software, librarie
 ```bash
 sudo docker run --name <nameOfContainer> -e <IMAGE>_PASSWORD=<passwordOfContainer> -p <pcPort>:<portContainer> -d <imageName>
 ```
-
-- List all containers
